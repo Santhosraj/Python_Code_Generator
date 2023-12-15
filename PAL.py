@@ -11,7 +11,7 @@ def execute():
     from langchain import OpenAI
     from langchain.chains.llm import LLMChain
     
-    os.environ["OPENAI_API_KEY"] = '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'
+    os.environ["OPENAI_API_KEY"] = 'Your OPENAI-API_KEY'
     
     llm = OpenAI(model_name = 'text-davinci-002' ,
                  temperature=0,
